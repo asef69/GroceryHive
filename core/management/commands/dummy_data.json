@@ -1,0 +1,200 @@
+[
+    {
+        "model": "users.user",
+        "pk": 1,
+        "fields": {
+            "email": "customer1@example.com",
+            "password": "Customer123!",
+            "role": "customer"
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 2,
+        "fields": {
+            "email": "seller1@example.com",
+            "password": "Seller123!",
+            "role": "seller"
+        }
+    },
+    {
+        "model": "users.user",
+        "pk": 3,
+        "fields": {
+            "email": "admin1@example.com",
+            "password": "Admin123!",
+            "role": "admin",
+            "is_staff": true
+        }
+    },
+
+    {
+        "model": "catalog.category",
+        "pk": 1,
+        "fields": {
+            "name": "Fruits"
+        }
+    },
+    {
+        "model": "catalog.category",
+        "pk": 2,
+        "fields": {
+            "name": "Vegetables"
+        }
+    },
+    {
+        "model": "catalog.category",
+        "pk": 3,
+        "fields": {
+            "name": "Dairy"
+        }
+    },
+    {
+        "model": "catalog.category",
+        "pk": 4,
+        "fields": {
+            "name": "Bakery"
+        }
+    },
+
+    {
+        "model": "catalog.product",
+        "pk": 1,
+        "fields": {
+            "name": "Apple (1kg)",
+            "description": "Fresh red apples, organic and healthy.",
+            "category": 1,
+            "price": "200.00",
+            "stock": 100,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:00:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 2,
+        "fields": {
+            "name": "Banana (dozen)",
+            "description": "Organic bananas, freshly picked.",
+            "category": 1,
+            "price": "120.00",
+            "stock": 150,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:05:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 3,
+        "fields": {
+            "name": "Milk (1L)",
+            "description": "Fresh dairy milk, locally sourced.",
+            "category": 3,
+            "price": "90.00",
+            "stock": 200,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:10:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 4,
+        "fields": {
+            "name": "Bread (whole wheat)",
+            "description": "Whole wheat bread, freshly baked.",
+            "category": 4,
+            "price": "60.00",
+            "stock": 80,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:15:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 5,
+        "fields": {
+            "name": "Carrot (1kg)",
+            "description": "Fresh, crunchy carrots, perfect for salads.",
+            "category": 2,
+            "price": "150.00",
+            "stock": 50,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:20:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 6,
+        "fields": {
+            "name": "Cucumber (1kg)",
+            "description": "Crisp cucumbers, ideal for salads or snacks.",
+            "category": 2,
+            "price": "80.00",
+            "stock": 120,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:25:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 7,
+        "fields": {
+            "name": "Cheese (500g)",
+            "description": "Creamy cheese, perfect for sandwiches and pizzas.",
+            "category": 3,
+            "price": "250.00",
+            "stock": 60,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:30:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 8,
+        "fields": {
+            "name": "Eggs (12pcs)",
+            "description": "Free-range eggs, high-quality protein source.",
+            "category": 3,
+            "price": "180.00",
+            "stock": 200,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:35:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 9,
+        "fields": {
+            "name": "Pasta (500g)",
+            "description": "Durum wheat pasta, ideal for any Italian dish.",
+            "category": 4,
+            "price": "100.00",
+            "stock": 100,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:40:00"
+        }
+    },
+    {
+        "model": "catalog.product",
+        "pk": 10,
+        "fields": {
+            "name": "Tomato (1kg)",
+            "description": "Fresh red tomatoes, perfect for cooking.",
+            "category": 2,
+            "price": "130.00",
+            "stock": 75,
+            "is_active": true,
+            "seller": 2,
+            "created_at": "2025-09-10T10:45:00"
+        }
+    }
+]
