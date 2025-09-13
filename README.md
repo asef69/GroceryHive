@@ -1,4 +1,4 @@
-# Phimart - E-commerce API
+# Grocery Hive - E-Grocery Shop API
 
 Grocery Hive is a RESTful e-Grocery Shop API built using Django REST Framework (DRF). It provides endpoints for managing products, categories, orders, and carts. The project also implements JWT authentication using Djoser and includes API documentation with Swagger.
 
