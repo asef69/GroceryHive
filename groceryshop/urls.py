@@ -54,6 +54,7 @@ urlpatterns = [
     
     path("api/users/", include("users.urls")),
     path("api/wallet/", include("wallet.urls")),
+    
 
     
     *root.urls,

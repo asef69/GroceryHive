@@ -182,3 +182,8 @@ INTERNAL_IPS = [
 ]
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "https://grocery-client-6krm.vercel.app/"
+]

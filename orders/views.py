@@ -63,6 +63,8 @@ class CheckoutView(generics.CreateAPIView):
         send_order_email(user.email,order.id,float(order.total_amount)) # type: ignore
         return Response(OrderSerializer(order).data,status=status.HTTP_201_CREATED)
 
+
+
 class PurchaseHistoryView(generics.ListAPIView):
     permission_classes=[permissions.IsAuthenticated]
     serializer_class=OrderSerializer
